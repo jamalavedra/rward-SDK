@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/jamalavedra/Projects/ethglobal-nyc-rward/rward-sdk"
+  },
+  "1 error pnpm": {
+    "errno": 1,
+    "code": "ELIFECYCLE",
+    "pkgid": "benchmarks@1.0.0",
+    "stage": "bench",
+    "script": "node benchmark.js",
+    "pkgname": "benchmarks",
+    "err": {
+      "name": "pnpm",
+      "message": "benchmarks@1.0.0 bench: `node benchmark.js`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: benchmarks@1.0.0 bench: `node benchmark.js`\nExit status 1\n    at EventEmitter.<anonymous> (/opt/homebrew/Cellar/pnpm/7.2.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:107358:20)\n    at EventEmitter.emit (events.js:400:28)\n    at ChildProcess.<anonymous> (/opt/homebrew/Cellar/pnpm/7.2.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:93924:18)\n    at ChildProcess.emit (events.js:400:28)\n    at maybeClose (internal/child_process.js:1058:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}

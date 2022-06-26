@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/jamalavedra/Projects/ethglobal-nyc-rward/rward-sdk"
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "rwardsdk-nextjs@0.1.0",
+    "stage": "dev",
+    "script": "next dev",
+    "pkgname": "rwardsdk-nextjs",
+    "err": {
+      "name": "pnpm",
+      "message": "rwardsdk-nextjs@0.1.0 dev: `next dev`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: rwardsdk-nextjs@0.1.0 dev: `next dev`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/opt/homebrew/Cellar/pnpm/7.2.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:93917:22)\n    at ChildProcess.emit (events.js:400:28)\n    at maybeClose (internal/child_process.js:1058:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)"
+    }
+  }
+}
